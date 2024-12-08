@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: calc(50% - var(--navbar-height));
+  left: 50%;
+  transform: translate(-50%, calc(-50% + var(--navbar-height)));
+  width: 100%;
+  height: 100%;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 100%;
+}
+
+.wallet-providers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: nowrap;
+}
+
+.provider-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 16px 24px;
+  width: 120px;
+  height: 120px;
+  border: 1px solid #697fbd;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.provider-name {
+  color: #9ca1b1;
+  user-select: none;
+}
+
+@media (min-width: 640px) {
+  .inner-container {
+    gap: 24px;
+  }
+  
+  .wallet-providers {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+}

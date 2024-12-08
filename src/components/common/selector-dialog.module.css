@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  border: 1px solid #ffffff66;
+  border-radius: 56px;
+  backdrop-filter: blur(60px);
+  box-shadow: 0px 4px 0px #00000040;
+  padding: 24px;
+  margin: 0 24px;
+}
+
+.inner-container {
+  color: #f3f5f9;
+  background-color: #454c60;
+  border: 1px solid #616779;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.regular {
+  height: max-content;
+}
+
+.small {
+  height: max-content;
+}
+
+@media (min-width: 640px) {
+  .container {
+    width: 540px;
+    margin: 24px;
+  }
+
+  .regular {
+    height: 352px;
+  }
+  
+  .small {
+    height: 256px;
+  }
+}

@@ -1,0 +1,20 @@
+.container {
+  width: 100%;
+  padding: 42px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.network-select {
+  width: 100%;
+  padding: 8px;
+  color: #b0b5c3;
+  font-weight: 500;
+  background-color: #5e6578;
+  border-radius: 12px;
+  outline: none;
+  border-right: 12px solid transparent;
+}

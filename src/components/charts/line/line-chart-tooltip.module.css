@@ -1,0 +1,45 @@
+.tooltip-container {
+  min-width: 175px;
+  background-color: #0c0e1466;
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.date {
+  display: block;
+  font-size: 13px;
+  letter-spacing: -0.005em;
+  color: #9199b0;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.inner-container > span {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.tokens,
+.price {
+  display: block;
+  font-size: 15px;
+  letter-spacing: -0.005em;
+  color: #f3f5f9;
+}
+
+.tokens {
+  font-weight: 500;
+}
+
+.indicator {
+  font-size: 15px;
+  letter-spacing: -0.005em;
+  color: #9199b0;
+}

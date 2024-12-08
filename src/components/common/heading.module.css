@@ -1,0 +1,11 @@
+.heading {
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 36px;
+}
+
+@media (min-width: 640px) {
+  .heading {
+    font-size: 36px;
+  }
+}
